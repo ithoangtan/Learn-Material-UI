@@ -13,5 +13,12 @@ export default function App() {
         Hello World
       </Button>
     </Container>
+    // {/* <NumberContext.Consumer>   
+    //   {( {number, updateNumber}) => 
+    //     <div> 
+    //       <button onClick={updateNumber}> {number} </button> 
+    //     </div>  
+    //   }
+    // </NumberContext.Consumer>  */}
   );
 }
