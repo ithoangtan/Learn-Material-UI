@@ -1,3 +1,4 @@
+import { red } from "@material-ui/core/colors";
 const styles = theme => ({
    card: {
       maxWidth: 345
@@ -17,7 +18,7 @@ const styles = theme => ({
       transform: "rotate(180deg)"
    },
    avatar: {
-      backgroundColor: "red"
+      backgroundColor: red[300]
    }
 });
 

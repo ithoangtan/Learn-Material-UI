@@ -130,4 +130,4 @@ class CardProduct extends Component {
    }
 }
 
-export default withStyles(styles, { withTheme: true })(CardProduct);
+export default withStyles(styles)(CardProduct);
