@@ -7,11 +7,12 @@ import styles from "./styles";
 import theme from "../../commons/theme";
 import Taskboard from "../Taskboard";
 import CardProduct from "../../Components/Surface/Card";
-
+import AppBars from "../../Components/Surface/AppBars";
 class App extends Component {
    render() {
       return (
          <ThemeProvider theme={theme}>
+            <AppBars></AppBars>
             <Taskboard />
             <br />
             <CardProduct />

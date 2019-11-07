@@ -18,7 +18,7 @@ import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 
-import styles from "./styles";
+import styles from "./styles.card";
 //This is important for config theme.spacing..... in styles
 import { withStyles } from "@material-ui/core/styles";
 
